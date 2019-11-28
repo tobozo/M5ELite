@@ -418,7 +418,8 @@ void getPirhanaShip() {
 
 ShipAnimation PirhanaAnimation {
   "Pirhana",
-  *getPirhanaShip
+  *getPirhanaShip,
+  R_LINE_COLOR
 };
 
 #endif

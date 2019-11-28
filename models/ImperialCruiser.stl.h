@@ -1346,7 +1346,8 @@ void getImperialCruiserShip() {
 
 ShipAnimation ImperialCruiserAnimation {
   "ImperialCruiser",
-  *getImperialCruiserShip
+  *getImperialCruiserShip,
+  R_LINE_COLOR
 };
 
 #endif

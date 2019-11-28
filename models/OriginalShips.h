@@ -374,7 +374,8 @@ void getdodoShip() {
 
 ShipAnimation dodoAnimation {
   "Dodo",
-  *getdodoShip
+  *getdodoShip,
+  R_LINE_GRADIENT
 };
 
 
@@ -428,7 +429,8 @@ void getcoriolisShip() {
 
 ShipAnimation coriolisAnimation {
   "Coriolis",
-  *getcoriolisShip
+  *getcoriolisShip,
+  R_LINE_GRADIENT
 };
 
 
@@ -481,6 +483,7 @@ void getthargoidShip() {
 
 ShipAnimation thargoidAnimation {
   "Thargoid",
-  *getthargoidShip
+  *getthargoidShip,
+  R_LINE_GRADIENT
 };
  

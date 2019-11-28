@@ -1577,7 +1577,8 @@ void getMilleniumFalconShip() {
 
 ShipAnimation MilleniumFalconAnimation {
   "MilleniumFalcon",
-  *getMilleniumFalconShip
+  *getMilleniumFalconShip,
+  R_LINE_COLOR
 };
 
 #endif
